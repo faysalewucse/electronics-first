@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="build/stylesheets/style.css" />
+    <script
+      src="https://kit.fontawesome.com/405dfcd106.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Electronic First</title>
+  </head>
+  <body>
+    <section id="hero">
+      <header>
+        <nav>
+          <img src="assets/logo.webp" alt="nav_logo" />
+          <div>
+            <ul>
+              <li>Trending</li>
+              <li>Pre-orders</li>
+              <li>Upcoming</li>
+              <li>Support 24/7</li>
+            </ul>
+            <div id="rounded-nav">
+              <div id="toolbar" class="hidden">
+                <div id="toolbar-nav1">
+                  <h6>Platforms</h6>
+                  <h6>View ALL</h6>
+                </div>
+                <div id="toolbar-items1">
+                  <small><i class="fa-brands fa-square-steam"></i>Steam</small>
+                  <small
+                    ><i class="fa-brands fa-connectdevelop"></i>Ubisoft
+                    Connect</small
+                  >
+                  <small
+                    ><i class="fa-brands fa-connectdevelop"></i>EA App</small
+                  >
+                  <small
+                    ><i class="fa-brands fa-battle-net"></i>Battle.net</small
+                  >
+                  <small
+                    ><i class="fa-solid fa-hill-rockslide"></i>Rockstar</small
+                  >
+                  <small><i class="fa-solid fa-synagogue"></i>GOG.com</small>
+                  <small
+                    ><i class="fa-brands fa-microsoft"></i>Microsoft
+                    Store</small
+                  >
+                  <small><i class="fa-brands fa-codiepie"></i>Epic</small>
+                </div>
+              </div>
+              <ul id="rounded-list">
+                <li>
+                  <a onclick="toggleToolbar()" id="nav-item" href="#"
+                    ><i class="fa-solid fa-desktop"></i>PC<i
+                      class="fa-solid fa-chevron-down"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a onclick="toggleToolbar()" id="nav-item" href="#"
+                    ><i class="fa-brands fa-playstation"></i>Play Station<i
+                      class="fa-solid fa-chevron-down"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a onclick="toggleToolbar()" id="nav-item" href="#"
+                    ><i class="fa-brands fa-xbox"></i>Xbox<i
+                      class="fa-solid fa-chevron-down"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a onclick="toggleToolbar()" id="nav-item" href="#"
+                    ><i class="fa-solid fa-cannabis"></i>Nintenda<i
+                      class="fa-solid fa-chevron-down"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+              <input type="text" id="search-field" />
+              <div id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <h1 id="close-btn" class="hidden">x</h1>
+            </div>
+          </div>
+          <div id="cart-user">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-regular fa-user"></i>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div id="left-side">
+          <h5>In 15 days</h5>
+          <h1>Starfield Digital Premium Edition + Early Access</h1>
+          <h1><span>-25%</span>74.89&euro;</h1>
+        </div>
+      </main>
+    </section>
+
+    <!-- Products Section Start -->
+    <section id="products-section">
+      <!-- Product 1 -->
+      <div class="container">
+        <button>View All</button>
+        <div id="products">
+          <div id="product">
+            <img src="assets/banner.jpg" alt="product1" />
+            <span>-25%</span>
+            <div class="product-info">
+              <h4>Name</h4>
+              <h4>20.00 &euro;</h4>
+            </div>
+          </div>
+          <div id="product">
+            <img src="assets/banner.jpg" alt="product2" />
+            <span>-25%</span>
+            <div class="product-info">
+              <h4>Name</h4>
+              <h4>20.00 &euro;</h4>
+            </div>
+          </div>
+          <div id="product">
+            <img src="assets/banner.jpg" alt="product2" />
+            <span>-25%</span>
+            <div class="product-info">
+              <h4>Name</h4>
+              <h4>20.00 &euro;</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Section End -->
+
+    <script src="/index.js"></script>
+  </body>
+</html>
